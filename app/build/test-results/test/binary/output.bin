@@ -1,0 +1,11 @@
+u2021-02-01 15:47:13,107 [DEBUG] DaoManager created dao for class class pw.proz.database.models.Query with reflection
+|2021-02-01 15:47:13,110 [DEBUG] DaoManager created dao for class class pw.proz.database.models.SingleFlight with reflection
+G2021-02-01 15:47:13,110 [INFO] TableUtils creating table 'Itineraries'
+l2021-02-01 15:47:13,257 [DEBUG] JdbcConnectionSource opened connection to jdbc:h2:./FlightsDB got #95367104
+Œ2021-02-01 15:47:13,301 [INFO] TableUtils executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `Itineraries` (`id` INTEGER AUTO_INCREMENT , `Departure` VARCHAR(255) , `departureTime` VARCHAR(255) , `Arrival` VARCHAR(255) , `arrivalTime` VARCHAR(255) , `Duration` VARCHAR(255) , `Price` DOUBLE PRECISION , `currency` VARCHAR(255) , `query_id` INTEGER , PRIMARY KEY (`id`) ) 
+A2021-02-01 15:47:13,302 [INFO] TableUtils creating table 'query'
+˜2021-02-01 15:47:13,303 [INFO] TableUtils executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `query` (`id` INTEGER AUTO_INCREMENT , `From` VARCHAR(255) , `To` VARCHAR(255) , `DepartureDate` VARCHAR(255) , `ArrivalDate` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+u2021-02-01 15:47:13,313 [DEBUG] DaoManager created dao for class class pw.proz.database.models.Query with reflection
+|2021-02-01 15:47:13,313 [DEBUG] DaoManager created dao for class class pw.proz.database.models.SingleFlight with reflection
+G2021-02-01 15:47:13,314 [INFO] TableUtils creating table 'Itineraries'
+R2021-02-01 15:47:13,656 [ERROR] DbManager Wrong user name or password [28000-200]
